@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LuasBangun</string>
+    <string name="activity_title_calculate_area">Calculate Area</string>
+    <string name="result">%s m2</string>
+    <string name="error_message_fields_empty">All fields are required</string>
+    <string name="error_message_invalid_value">Invalid value</string>
 </resources>

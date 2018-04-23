@@ -9,9 +9,13 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
+public class FunctionUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+    public void testCalculateRectangleArea() throws Exception {
+        double actual = Formula.calculateRectangleArea(3, 6);
+
+        double expected = 18;
+
+        assertEquals("Test calculate rectangle area", expected, actual, 18);
     }
 }
